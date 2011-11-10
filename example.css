@@ -1,0 +1,107 @@
+html,* {
+	margin: 0px;
+	padding: 0px;
+	color: #333333;
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size:1.3em;
+	margin-bottom:10px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+	font-size: 0.8em;
+}
+
+caption {
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+thead, tfoot {
+	background: #CCCCCC;
+}
+
+thead tr th, tfoot tr td {
+	color: #333333;
+	padding: 5px;
+	text-align:left;
+}
+
+thead tr th {
+	font-weight: bold;
+}
+
+tbody tr td {
+	padding: 10px 4px;
+}
+
+#app {
+	width: 900px;
+	margin: 20px auto;
+}
+
+.button {
+	float:right;
+	cursor: pointer;
+	margin-top: 10px;
+	border: 0px none;
+	background:none;
+}
+
+.img {
+	display: block;
+	width: 80px;
+	height: 80px;
+	border: 1px solid #666666;
+}
+
+.product {
+	display:block;
+	font-weight: bold;
+	font-size: 0.9em;
+	margin-bottom: 8px; 
+}
+
+.a-btn {
+	display:block;
+	width: 80px;
+	text-align:center;
+	padding:6px 0px;
+	border:1px solid #999999;
+	color:#666666;
+	text-decoration: none;
+	background-color: #F2F2F2;
+	margin-top:20px;
+	border-radius:4px;
+	clear:both;
+}
+
+.altrow {
+	background-color: #F2F2F2;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.qty {
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2) inset;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Carrinho</title>
+		<link rel="stylesheet" type="text/css" href="example.css" />
+	</head>
+	<body>
+		<div id="app">
+			<h1>Carrinho de compras</h1>
+			<form action="example.php?action=set" method="post">
+				<table>
+					<thead>
+						<tr>
+							<th class="left" colspan="2">Produto</th>
+							<th class="center">Valor Unitário</th>
+							<th class="center">Quantidade</th>
+							<th class="center">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td width="10%" class="center"><div class="img"></div></td>
+							<td width="40%" class="left">
+								<span class="product">Produto de Teste</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra congue augue, at aliquet mauris laoreet ac. Donec rutrum mollis turpis, non lobortis neque feugiat vitae.</p>
+							</td>
+							<td width="17%" class="center"><strong>R$</strong> 100.00</td>
+							<td width="16%" class="center">
+								<input class="qty center" type="text" value="1" readonly="readonly"/>
+							</td>
+							<td width="17%" class="center total"><strong>R$</strong> 100.00</td>
+						</tr>
+						<tr class="altrow">
+							<td width="10%" class="center"><div class="img"></div></td>
+							<td width="40%" class="left">
+								<span class="product">Outro teste</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra congue augue, at aliquet mauris laoreet ac. Donec rutrum mollis turpis, non lobortis neque feugiat vitae.</p>
+							</td>
+							<td width="17%" class="center"><strong>R$</strong> 100.00</td>
+							<td width="16%" class="center">
+								<input class="qty center" type="text" value="1" readonly="readonly"/>
+							</td>
+							<td width="17%" class="center"><strong>R$</strong> 100.00</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="4"></td>
+							<td class="center"><strong>R$</strong> <span id="total">200.00</span></td>
+						</tr>
+					</tfoot>
+				</table>
+				<button type="submit" class="button">
+					<img src="https://www.paypal-brasil.com.br/logocenter/util/img/btComprar_1.png" alt="comprar" />
+				</button>
+			</form>
+		</div>
+	</body>
+</html>
